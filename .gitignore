@@ -1,0 +1,42 @@
+# Root .gitignore for DhanDrishti
+
+# Maven / Java
+target/
+backend/target/
+*.class
+*.jar
+*.war
+*.ear
+.mvn/wrapper/maven-wrapper.jar
+
+# Node / React
+node_modules/
+frontend/node_modules/
+frontend/dist/
+frontend/dist-ssr/
+*.local
+
+# Python / OCR
+__pycache__/
+*/__pycache__/
+ocr-service/__pycache__/
+*.py[cod]
+*$py.class
+ocr-service/venv/
+venv/
+ENV/
+env/
+.pytest_cache/
+
+# IDE / Editor
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/shelf/
+*.iws
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# OS Files
+.DS_Store
+Thumbs.db
